@@ -1,0 +1,304 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+#home {
+    background-color:steelblue;
+    margin-top:-1cm;
+    padding-top:1cm;
+    margin-left:-1cm;
+    padding-left:1cm;
+    margin-right:-1cm;
+    padding-right:1cm;
+    height: 4.5cm;
+}
+
+/* Navigation Bar */
+
+.profile_name {
+    color:whitesmoke;
+    font-size:35px;
+    font-family:Arial;
+    padding-top:15px;
+    padding-left:25px;
+}
+
+.contact_info {
+    color:whitesmoke;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+    padding-bottom:3px;
+}
+
+.contact_info a {
+    color:whitesmoke;
+    text-decoration:none;
+    padding-bottom:0.5px;
+}
+
+.contact_info a:hover {
+    color:white;
+    font-size:22px;
+    text-decoration:underline;
+}
+
+.contact_info img {
+    width:26px;
+    margin-right:5px;
+    padding-top:5px;
+    padding-right:5px;
+    padding-left:10px;
+}
+
+.topdiv {
+    float:right;
+    padding-right:1cm;
+    margin-top:-2.5cm;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.topmenu {
+    color:whitesmoke;
+    font-size:25px;
+    padding:20px;
+    text-decoration:none;
+}
+
+.topmenu:hover {
+    color:white;
+    text-decoration:underline;
+    font-size:28px;
+}
+
+/* About me */
+
+#about-me {
+    color:steelblue;
+    float:right;
+    font-size:25px;
+    margin-top:30px;
+}
+
+#about-me h1 {
+    font-size:50px;
+}
+
+#about-me p {
+    color:dimgray;
+    margin-top:1cm;
+    margin-right:100px;
+}
+
+#about-me #profile-pic {
+    width:300px;
+    border-radius:50%;
+    float:left;
+    margin-left:100px;
+    margin-right:25px;
+    margin-top:25px;
+    vertical-align: middle;
+}
+
+/* Skills */
+
+#skills #tech-skills {
+    color:steelblue;
+    margin-left:25px;
+    margin-top:11cm;
+    font-size:50px;
+}
+
+#skills #prof-skills {
+    color:steelblue;
+    margin-left:25px;
+    margin-top:1cm;
+    font-size:50px;
+}
+
+.all_skills {
+    display:flex;
+    flex-direction:row;
+    flex-flow:wrap;
+}
+
+.skill {
+    border:1px solid gray;
+    box-shadow: 0 3px 10px gray;
+    background-color: white;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+    margin-top:5px;
+    border-radius:20px;
+    padding:50px;
+    text-align:center;
+}
+
+.skill img {
+    width:60px;
+}
+
+.skill h6 {
+    font-size:20px;
+    align-items: center;
+    margin-block-start: 15px;
+    margin-block-end: 5px;
+}
+
+.skill p {
+    margin-bottom:5px;
+}
+
+/* Projects */
+
+#projects h2 {
+    color:steelblue;
+    font-size:50px;
+    margin-left:25px;
+}
+
+#projects-container {
+    color:black;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.project h3 {
+    font-size:30px;
+    margin-bottom:-5px;
+    margin-top:20px;
+}
+
+.project ul {
+    font-size:20px;
+}
+
+/* Education */
+#education h2 {
+    color:steelblue;
+    font-size:50px;
+    margin-left:25px;
+    padding-top:50px;
+}
+
+#education-container {
+    color:black;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:-10px;
+}
+
+.education_entry #left_col {
+    clear:left;
+    float:left;
+    display:inline;
+}
+
+.education_entry #right_col {
+    float:right;
+    clear:right;
+    display:inline;
+    text-align:right;
+}
+
+.education_entry h3 {
+    font-size:30px;
+    margin-top:-5px;
+    display:inline;
+}
+
+.education_entry p {
+    font-size:20px;
+    margin-left:25px;
+}
+
+
+/* Recommendations */
+
+#recommendations {
+    clear:both;
+}
+
+#recommendations h2 {
+    color:steelblue;
+    font-size:50px;
+    margin-left:25px;
+    padding-top:50px;
+}
+
+#recommend-container {
+    display:flex;
+    flex-direction:row;
+    flex-flow:wrap;
+}
+
+.recommendation {
+    border:1px solid gray;
+    box-shadow: 0 3px 10px gray;
+    background-color: white;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+    margin-top:5px;
+    border-radius:20px;
+    padding:50px;
+    width:18cm;
+}
+
+.recommendation h3 {
+    font-size:30px;
+    text-align:left;
+    display:inline;
+}
+
+.recommendation p {
+    font-size:25px;
+    text-align:left;
+}
+
+.left_quote {
+    width:25px;
+    transform: scaleX(-1);
+    rotate:180deg;
+    padding-right:15px;
+}
+
+.right_quote {
+    width:25px;
+    rotate:180deg;
+    padding-left:15px;
+}
+
+.recommend_pic {
+    width:150px;
+    border-radius:50%;
+    display:inline;
+}
+
+#recommend-button-container {
+    text-align: center;
+}
+
+#recommend_button {
+    color:steelblue;
+    font-size:25px;
+    margin-bottom:25px;
+}
+
+#recommend_button:hover {
+    background-color:white;
+    cursor:pointer;
+}
+
+/* Back to top button */
+
+#to-top-button {
+    position: fixed;
+    right:1%;
+    bottom:1.5%;
+}

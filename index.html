@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seth Owings - Portfolio</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <nav>
+            <div id="home">
+                <!--Left side name and contact info-->
+                <div class="profile_name">
+                    Seth Owings
+                </div>
+                <div class="contact_info">
+                    <img src="./page_images/email.png" alt="Email: "/>
+                    owings671@outlook.com
+                </div>
+                <div class="contact_info">
+                    <img src="./page_images/phone.png" alt="Phone #: "/>
+                    +1 (209) 483-0232
+                </div>
+                <div class="contact_info">
+                    <img src="./page_images/linkedin.png" alt="LinkedIn: "/>
+                    <!--Make this link open in a new tab-->
+                    <a href="https://www.linkedin.com/in/sethtowings" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/sethtowings</a>
+                </div>
+                
+                <!--Right side navigation bar buttons-->
+                <div class="topdiv">
+                    <a class="topmenu" href="#about-me">About Me</a>
+                    <a class="topmenu" href="#skills">Skills</a>
+                    <a class="topmenu" href="#projects">Projects</a>
+                    <a class="topmenu" href="#education">Education</a>
+                    <a class="topmenu" href="#recommendations">Recommendations</a>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!--About me-->
+        <section id="about-me">
+            <img id="profile-pic" src="./page_images/profile_picture.JPG" alt="Profile Picture"/>
+            <h1>Welcome, I'm Seth Owings! <img src="./page_images/hand_wave.png" width="40px" alt="Waving Emoji"/> </h1>
+            <p>I am a recent Computer Science graduate from UC Davis. I have demonstrated proficiency in Python, C++, Java, and GoLang through academic projects and have recent experience with HTML, CSS, and JavaScript. My dedication to excellence in my professional skills makes me a versatile candidate ready to contribute to any team. I am eager to network, learn, and grow as a Software Engineer.</p>
+        </section>
+
+
+        <!--Skills-->
+        <section id="skills">
+            <h2 id="tech-skills">Technical Skills</h2>
+            <div class="all_skills">
+                <div class="skill">
+                    <img src="./page_images/python_logo.png" alt="Python Logo"/>
+                    <h6>Python</h6>
+                    <p>3 years experience</p>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/c++_logo.png" alt="C++ Logo"/>
+                    <h6>C++</h6>
+                    <p>2 years experience</p>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/java_logo.png" alt="Java Logo"/>
+                    <h6>Java</h6>
+                    <p>2 years experience</p>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/golang_logo.png" alt="GoLang Logo"/>
+                    <h6>GoLang</h6>
+                    <p>1 year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/html5_logo.png" alt="HTML5 Logo"/>
+                    <h6>HTML 5</h6>
+                    <p> < 1 year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/css3_logo.png" alt="CSS3 Logo"/>
+                    <h6>CSS 3</h6>
+                    <p> < 1 year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/javascript_logo.png" alt="JavaScript Logo"/>
+                    <h6>JavaScript</h6>
+                    <p> < 1 year experience</p>
+                </div>
+            </div>
+            <h2 id="prof-skills">Professional Skills</h2>
+            <div class="all_skills">
+                <div class="skill">
+                    <img src="./page_images/relationship.png" alt="Relationship icon"/>
+                    <h6>Relationship Building</h6>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/decision.png" alt="Decision Making icon"/>
+                    <h6>Data-Driven Decision Making</h6>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/troubleshooting.png" alt="Troubleshooting icon"/>
+                    <h6>Troubleshooting and Diagnostics</h6>
+                </div>
+                <div class="skill">
+                    <img src="./page_images/customer_service.png" alt="Customer Service icon"/>
+                    <h6>Customer Service</h6>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--Projects-->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="projects-container">
+                <div class="project">
+                    <h3>IP Address Processing (Python), Computer Networks</h3>
+                    <ul>
+                        <li>Provided a database of 1000+ prefixes and assigned Autonomous System (AS) numbers, this program takes a list of IP
+                            addresses as input, performs prefix matching to find the longest prefix match for each IP address, and prints their respective
+                            prefix lengths and AS numbers. Implemented Tries data structure to store and retrieve prefixes and AS numbers.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project">
+                    <h3>Web Server and Proxy with Cache (Python), Computer Networks</h3>
+                    <ul>
+                        <li>Client connects to the server through the proxy. If client request for HTML object is not in the proxy’s cache the object is
+                            fetched from the server, stored in the cache, and delivered to the client. If the request is already in the cache the object is read
+                            directly from the cache and returned to the client greatly improving efficiency. All requests are sent via 100 byte packets and
+                            connection with the client is closed after each request is fulfilled. Proxy’s cache is implemented using a map.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project">
+                    <h3>Unit Processing Website</h3>
+                    <ul>
+                        <li>Created a functioning unit conversion website using HTML, CSS, and Javascript.</li>
+                        <li>Performs conversions from Celsius to Fahrenheit, Kilograms to Pounds, and Kilometers to Miles.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--Education-->
+        <section id="education">
+            <h2>Education</h2>
+            <div id="education-container">
+                <div class="education_entry">
+                    <div id="left_col">
+                        <h3>University of California, Davis</h3>
+                        <p>Bachelor of Science, Computer Science</p>
+                        <p>Cumulative GPA: 3.73</p>
+                        <p>Dean's Honor List: Winter 2023</p>
+                    </div>
+                    <div id="right_col">
+                        <p>Davis, CA</p>
+                        <p>Sept 2021 - June 2023</p>
+                    </div>
+                </div>
+                <hr style="clear:both"/>
+                <div class="education_entry">
+                    <div id="left_col">
+                        <h3>San Joaquin Delta College</h3>
+                        <p>AS-T:Computer Science; Mathematics; Physics</p>
+                        <p>AS: Mathematics; Interdisciplinary Studies - Mathematics & Science</p>
+                        <p>AA: Interdisciplinary Studies - Arts, Humanities & Social Sciences</p>
+                        <p>Cumulative GPA: 3.95</p>
+                    </div>
+                    <div id="right_col">
+                        <p> Stockton, CA</p>
+                        <p>Aug 2019 - May 2021</p>
+                    </div>
+                </div>
+                <hr style="clear:both"/>
+                <div class="education_entry">
+                    <div id="left_col">
+                        <h3>IBM Full Stack Software Developer Professional Certificate (Coursera)</h3>
+                        <p>Completed Certifications: Intro to Cloud Computing; Intro to Web Development with HTML, CSS, and JavaScript</p>
+                    </div>
+                    <div id="right_col">
+                        <p>Online</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Recommendations-->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div id="recommend-container">
+                <div class="recommendation">
+                    <h3><img class="recommend_pic" src="./page_images/walt_thinfen.jpeg" alt="[Profile Picture]"/>Walt Thinfen</h3>
+                    <p><img class="left_quote" src="./page_images/quote_left.png" alt="Left Quotation"/>Seth is a very impressionable young talent.  Hardworker, loved by employees and customers alike. He thrived as a young person on his team where he quickly became a lead! He worked for me when he was in college as a support engineer. He was just finishing high school at that time, but I found him to be a very fast learner, team player and made a huge impressions on all the employees at Visioneer plus customers he helped.   His work ethics is impressive and works very well with everyone.  He is a great team mate to have on board. I believe he can thrive in any situation!    Further, he was a standout running back on his football team which I think is a great trait to have in any young person - TEAM WORK! I am glad I got to work with Seth and see what he is capable of at such a young age and see that he can grow and thrive into whatever he sets his mind to! I welcome the day to work again with Seth without hesitation. <img class="right_quote" src="./page_images/quote_left.png" alt="Left Quotation"/></p>
+                </div>
+                <div class="recommendation">
+                    <h3><img class="recommend_pic" src="./page_images/julian_neo_sanchez.jpeg" alt="[Profile Picture]"/>Julian Neo Sanchez</h3>
+                    <p> <img class="left_quote" src="./page_images/quote_left.png" alt="Left Quotation"/>Seth and I were both students at Delta College around the same time. Let me tell you, he is one of the most academically driven individuals I've met out of my peers. Seth has showcased his intelligence, quick wits, and knowledge on a variety of subjects such as computer science, politics, and sciences. Seth is a great individual for any company and I highly recommend him for any position possible. <img class="right_quote" src="./page_images/quote_left.png" alt="Left Quotation"/></p>
+                </div>
+            </div>
+            <div id="recommend-button-container">
+                <button id="recommend_button" onclick="recommend_page()">View/Submit Recommendation on LinkedIn</button>
+            </div>
+        </section>
+
+        <!--Back to top button-->
+        <div id="to-top-button">
+            <a href="#home"><img src="./page_images/up_arrow.png" alt="[To top button]"/></a>
+        </div>
+    </body>
+</html>
