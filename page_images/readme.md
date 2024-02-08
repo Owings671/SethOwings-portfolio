@@ -1,1 +1,1 @@
-Contains all images that are used with the webpage.
+This directory contains all images that are used with the webpage.
